@@ -22,7 +22,7 @@ export default function HomePage() {
                 <Button colorScheme='purple' size='lg' mt='20px'>More Info</Button>
             </Box>
             <Box mt={{lg:'-90px', base:'10px'}} flexBasis='50%'>
-            <RevealWrapper origin='top' delay={200} duration={1000} distance='500px' reset={true}>
+            <RevealWrapper origin='top' duration={1000} distance='500px' reset={true}>
                 <Image src={banner1} alt='' height={600} width={600}></Image>
             </RevealWrapper>
             </Box>
@@ -32,13 +32,13 @@ export default function HomePage() {
     <Box>
         <Container maxW={1400}>
             <Flex display={{lg:'flex', base:'grid'}} gap={10} m='50px' columnGap={40}>
-            <RevealWrapper origin='left' delay={200} duration={1000} distance='500px' reset={true}>
+            <RevealWrapper origin='left' duration={1000} distance='500px' reset={true}>
             <Box flexBasis={'50%'}>
                 <Image src={banner2} alt=''/>
             </Box>
             </RevealWrapper>
             <Box flexBasis='50%' m='auto'>
-            <RevealWrapper origin='right' delay={200} duration={1000} distance='500px' reset={true}>
+            <RevealWrapper origin='right' duration={1000} distance='500px' reset={true}>
                 <Heading bgGradient='linear(to-l, #7928CA, #FF0080)' bgClip='text' pb={'10px'}>Program Of Studies</Heading>
                 <Text mt='20px'>This curriculum is intended for beginners who want to learn software development from the ground up. It is going to be a fifteen-month-long hybrid program that includes both onsite and online classes and is divided into five quarters of 13 weeks each. The emphasis will be on hands-on learning by educating students to produce projects.</Text>
                 <Button mt='20px' colorScheme='purple'>Read More</Button>

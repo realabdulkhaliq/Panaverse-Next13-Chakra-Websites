@@ -15,7 +15,7 @@ export default function HomePage() {
     <>
     <Box bgImage={'bannerbg.png'} bgSize='cover'>
         <Container maxW={1400}>
-        <Flex px={10} py={{lg:'150px', base:'80px'}} display={{lg:'flex', base:'grid'}}>
+        <Flex px={{lg:'40px', base:'30px'}} py={{lg:'150px', base:'80px'}} display={{lg:'flex', base:'grid'}}>
             <Box flexBasis='50%'>
                 <Heading size={'2xl'} color={'white'}>Prepare yourself for the Next Generation of Internet with Panaverse</Heading>
                 <Text color={'whiteAlpha.700'} mt='20px'>One Year Panaverse DAO Earn as you Learn Program. Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI), Cloud, Edge, and Ambient Computing/IoT Technologies</Text>
@@ -31,14 +31,14 @@ export default function HomePage() {
     </Box>
     <Box>
         <Container maxW={1400}>
-            <Flex display={{lg:'flex', base:'grid'}} gap={10} m='50px' columnGap={40}>
-            <RevealWrapper origin='left' duration={1000} distance='500px' reset={true}>
+            <Flex display={{lg:'flex', base:'grid'}} gap={10} m={{lg:'50px', base:'30px'}} columnGap={40}>
+            <RevealWrapper origin='left' duration={1000} distance='100px' reset={true}>
             <Box flexBasis={'50%'}>
                 <Image src={banner2} alt=''/>
             </Box>
             </RevealWrapper>
             <Box flexBasis='50%' m='auto'>
-            <RevealWrapper origin='right' duration={1000} distance='500px' reset={true}>
+            <RevealWrapper origin='right' duration={1000} delay={50} distance='100px' reset={true}>
                 <Heading bgGradient='linear(to-l, #7928CA, #FF0080)' bgClip='text' pb={'10px'}>Program Of Studies</Heading>
                 <Text mt='20px'>This curriculum is intended for beginners who want to learn software development from the ground up. It is going to be a fifteen-month-long hybrid program that includes both onsite and online classes and is divided into five quarters of 13 weeks each. The emphasis will be on hands-on learning by educating students to produce projects.</Text>
                 <Button mt='20px' colorScheme='purple'>Read More</Button>
@@ -81,7 +81,7 @@ export default function HomePage() {
     </Box>
     <Box>
         <Container maxW={1380}>
-            <Box bg='purple.100' borderLeftColor={'purple.900'} borderLeftWidth={'thick'} borderRadius={'lg'} textAlign='center' p='80px'>
+            <Box bg='purple.100' borderLeftColor={'purple.900'} borderLeftWidth={'thick'} borderRadius={'lg'} textAlign='center' p={{lg:'80px', md:'40px', base:'30px'}}>
                 <Heading bgGradient='linear(to-l, #7928CA, #FF0080)' bgClip='text' pb={'12px'}>The Program in a Nutshell</Heading>
                 <Heading color={'purple.700'} mt='20px'>Earn While You Learn</Heading>
                 <Text mt='20px'>In this brand-new type of curriculum, students will learn how to make money and boost exports in the classroom and will begin doing so within six months of the program’s beginning. It resembles a cross between a corporate venture and an educational project.</Text>

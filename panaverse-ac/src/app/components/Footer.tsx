@@ -2,8 +2,9 @@
 import React from 'react'
 import logo from '@/../public/logo.png'
 import Image from 'next/image'
-import { Box, Container, Grid, Heading, SimpleGrid, Text } from '@chakra-ui/react'
+import { Box, Container, Flex, Grid, Heading, SimpleGrid, Text } from '@chakra-ui/react'
 import Link from 'next/link'
+import { PhoneIcon, EmailIcon } from '@chakra-ui/icons'
 
 export default function Footer() {
   return (
@@ -39,8 +40,8 @@ export default function Footer() {
                 <Box>
                     <Heading size={'lg'} color={'white'}>CONTACT US</Heading>
                     <Grid color={'gray'} pt='40px' rowGap={'5px'}>
-                        <Link href={''}>+92 123 4567890</Link>
-                        <Link href={''}>iqhlak005@gmail.com</Link>
+                    <Flex justifyContent={{lg:'start', md:'start',base:'center'}}><PhoneIcon mr={'10px'} /><Link href={''}>+92 123 4567890</Link></Flex>
+                    <Flex justifyContent={{lg:'start', md:'start',base:'center'}}><EmailIcon mr={'10px'} /><Link href={''}>iqhlak005@gmail.com</Link></Flex>
                         <Link href={''}>Lahore, Pakistan</Link>
                     </Grid>
                 </Box>

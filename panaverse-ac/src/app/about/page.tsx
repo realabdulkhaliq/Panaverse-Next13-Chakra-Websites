@@ -12,7 +12,7 @@ export default function About() {
   return (
     <>
     <Banner title='About' src='/aboutcover.jpg' />
-    <Box p={'60px'}>
+    <Box p={{lg:'60px', base:'30px'}}>
         <Container maxW={1400}>
             <Flex display={{lg:'flex', base:'grid'}}>
                 <Box flexBasis={'50%'} m='auto'><Center>
@@ -27,7 +27,7 @@ export default function About() {
             </Flex>
         </Container>
     </Box>
-    <Box p={'60px'}>
+    <Box p={{lg:'60px', base:'30px'}}>
         <Container maxW={1400}>
             <Flex display={{lg:'flex', base:'grid'}}>
                 <Box flexBasis={'50%'} m='auto'>
@@ -40,7 +40,7 @@ export default function About() {
             </Flex>
         </Container>
     </Box>
-    <Box p={'60px'}>
+    <Box p={{lg:'60px', base:'30px'}}>
         <Container maxW={1400}>
             <Flex display={{lg:'flex', base:'grid'}}>
                 <Box flexBasis={'50%'}>
